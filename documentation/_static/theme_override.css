@@ -1,0 +1,146 @@
+:root {
+    --Nokia-blue: #124191;
+    --Nokia-dgray: #68717A;
+    --Nokia-lgray: #D8D9DA;
+    --Nokia-lblue: #00C9FF;
+    --Sphinx-black: #404040;
+    --Main-Color: var(--Nokia-blue);
+}
+
+/* Horizontal scrollbar */
+html {
+    height: 100%;
+    overflow-x: auto;
+}
+
+/* Disable different color of layout box  */
+table.search_pl_searchbox_outfit {
+    border-radius: 7px;
+    background-color: var(--Main-Color);
+}
+
+.wy-nav-content-wrap {
+    background-color: #FCFCFC;
+    width: -webkit-fill-available;
+}
+
+.wy-nav-content {
+    max-width: None;
+    width: 100%;
+}
+
+.wy-side-nav-search {
+    background-color: var(--Main-Color)
+}
+
+.wy-menu-vertical p.caption {
+    color: #FCFCFC;
+    font-size: 90%;
+    padding-left: 20px;
+}
+
+.wy-menu-vertical a {
+    padding-left: 30px;
+}
+
+.rst-content {
+    width: 98%;
+}
+
+.rst-content table.docutils:not(.field-list) th.stub {
+    color: #FCFCFC;
+    font-weight: bold;
+    background-color: var(--Nokia-blue);
+    text-align: left;
+    vertical-align: center;
+    white-space: nowrap;
+}
+
+.rst-content table.docutils:not(.field-list) th.head {
+    color: #FCFCFC;
+    background-color: var(--Nokia-blue);
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+}
+
+.rst-content table.docutils:not(.field-list) td {
+    white-space: normal !important;
+}
+
+b.rlm {
+    font-weight: bold;
+    color: red;
+}
+
+b.hl1 {
+    font-weight: bold;
+}
+
+b.hl2 {
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+.sr {
+    font-size: 10pt;
+    line-height: 14pt;
+    color: var(--Sphinx-black);
+}
+
+.toggler {
+    background-color: var(--Sphinx-black);
+    color: ghostwhite;
+    float: right;
+    border-radius: 4px;
+    border: 1px solid ghostwhite;
+    -webkit-appearance: none;
+    font-family: "Lato";
+    text-align: center;
+    padding: 6px 10px 8px 10px;
+    transition-duration: 0.4s;
+}
+
+.toggler:hover {
+    background: var(--Nokia-blue) !important;
+}
+
+table.commit-info-table {
+    color: var(--Sphinx-black);
+    background: var(--Nokia-lgray);
+    border-width: 3px;
+    border-color: black;
+}
+
+tr.commit-info-table-row td {
+    border-top-width: 3px;
+}
+
+td.commit-info-table-label {
+    background: var(--Nokia-blue);
+    color: ghostwhite;
+    font-size: 12px;
+    font-weight: bold;
+    width: 8%;
+    border-bottom-right-radius: 10px;
+    border-right-style: hidden;
+}
+
+td.commit-info-table-empty {
+    width: 60px;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+}
+
+td.commit-info-table-value {
+    width: 17%;
+    border-top-style: hidden;
+    overflow: hidden;
+    text-align: center;
+}
+
+td.commit-info-table-description {
+    border-top-style: hidden;
+    text-align: center;
+}
+
