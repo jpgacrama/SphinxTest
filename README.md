@@ -6,11 +6,12 @@ Installation Instructions:
 
     - For windows, see: https://www.sphinx-doc.org/en/1.6/install.html#windows-install-python-and-sphinx
 
-2. Install the latest JDK
+2. Install the latest GNU Make for your Operating System
+3. Install the latest JDK
 
-3. Make sure that the path of Python is available in your system's PATH variable
-4. Open command line as ADMINISTRATOR
-5. Type the following commands to install additional extensions:
+4. Make sure that the path of Python is available in your system's PATH variable
+5. Open command line as ADMINISTRATOR
+6. Type the following commands to install additional extensions:
 
     - pip install sphinxcontrib-plantuml
     - pip install sphinx_rtd_theme
