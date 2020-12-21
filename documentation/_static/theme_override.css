@@ -1,10 +1,12 @@
 :root {
-    --Nokia-blue: #124191;
-    --Nokia-dgray: #68717A;
-    --Nokia-lgray: #D8D9DA;
-    --Nokia-lblue: #00C9FF;
+    --Flexi-green: #8bb43f;
+    --Flexi-dblue: #0b122c;
+    --Flexi-dgray: #68717A;
+    --Flexi-lgray: #D8D9DA;
+    --Flexi-lblue: #00C9FF;
     --Sphinx-black: #404040;
-    --Main-Color: var(--Nokia-blue);
+    --Main-Color: var(--Flexi-green);
+    --Secondary-Color: var(--Flexi-dblue);
 }
 
 /* Horizontal scrollbar */
@@ -22,6 +24,10 @@ table.search_pl_searchbox_outfit {
 .wy-nav-content-wrap {
     background-color: #FCFCFC;
     width: -webkit-fill-available;
+}
+
+.wy-nav-side {
+    background-color: var(--Secondary-Color) !important;
 }
 
 .wy-nav-content {
@@ -50,7 +56,7 @@ table.search_pl_searchbox_outfit {
 .rst-content table.docutils:not(.field-list) th.stub {
     color: #FCFCFC;
     font-weight: bold;
-    background-color: var(--Nokia-blue);
+    background-color: var(--Flexi-blue);
     text-align: left;
     vertical-align: center;
     white-space: nowrap;
@@ -58,7 +64,7 @@ table.search_pl_searchbox_outfit {
 
 .rst-content table.docutils:not(.field-list) th.head {
     color: #FCFCFC;
-    background-color: var(--Nokia-blue);
+    background-color: var(--Flexi-blue);
     text-align: center;
     vertical-align: center;
     white-space: nowrap;
@@ -85,11 +91,11 @@ b.hl2 {
 .sr {
     font-size: 10pt;
     line-height: 14pt;
-    color: var(--Sphinx-black);
+    color: var(--Flexi-dblue);
 }
 
 .toggler {
-    background-color: var(--Sphinx-black);
+    background-color: var(--Flexi-dblue);
     color: ghostwhite;
     float: right;
     border-radius: 4px;
@@ -102,12 +108,12 @@ b.hl2 {
 }
 
 .toggler:hover {
-    background: var(--Nokia-blue) !important;
+    background: var(--Flexi-blue) !important;
 }
 
 table.commit-info-table {
-    color: var(--Sphinx-black);
-    background: var(--Nokia-lgray);
+    color: var(--Flexi-dblue);
+    background: var(--Flexi-lgray);
     border-width: 3px;
     border-color: black;
 }
@@ -117,7 +123,7 @@ tr.commit-info-table-row td {
 }
 
 td.commit-info-table-label {
-    background: var(--Nokia-blue);
+    background: var(--Flexi-blue);
     color: ghostwhite;
     font-size: 12px;
     font-weight: bold;

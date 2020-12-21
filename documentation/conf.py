@@ -107,7 +107,7 @@ html_theme_options = {
     'sticky_navigation': True,
 }
 html_theme_path = ['_templates']
-#html_logo = '_static/logo.png' - CREATE A FlexiSourceIT Logo
+html_logo = '_static/logo.png'
 html_favicon = '_static/tok.ico'
 html_title = 'SRAN EFS Hub'
 
