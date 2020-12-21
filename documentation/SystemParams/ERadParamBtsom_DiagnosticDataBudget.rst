@@ -8,7 +8,6 @@ DiagnosticDataBudget
 
 .. CSV-table::
    :widths: 7, 40
-   :stub-columns: 1
 
     "**Status:**", "Approved"
     "**Features Ref.:**", "N/A"
@@ -23,7 +22,6 @@ Note that System :term:`Technical Log` files can be stored as separate files in 
 These are stored in the Diagnostic Data Directory .
 
     .. CSV-table::
-        :stub-columns: 1
 
         "Unit", "MB"
         "Default Value", " - 10 for *Old HW*
