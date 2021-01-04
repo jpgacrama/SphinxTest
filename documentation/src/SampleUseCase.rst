@@ -73,6 +73,10 @@ Description:
             Actor 1.
         end note
 
+        note over Domain1
+            New note to denote changes in design
+        end note
+
         Domain1 -> Domain1: License-related validation is done
 
         alt License-related errors are found
